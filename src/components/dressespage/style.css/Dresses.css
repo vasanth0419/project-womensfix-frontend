@@ -1,0 +1,15 @@
+.card-tab {
+  height: 350px;
+  width: 17rem;
+  border-radius: 20px;
+  margin-bottom: 12rem;
+  margin-top: 6rem;
+  margin-left: 3rem;
+}
+.addbtn {
+  margin-left: 10rem;
+  
+}
+.addbutton-text {
+  margin-left: 5px; /* Adjust as needed */
+}
