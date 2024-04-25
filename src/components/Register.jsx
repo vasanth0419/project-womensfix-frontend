@@ -266,7 +266,6 @@ const Register = () => {
                                 >
                                   Sign up
                                 </button>
-                                <ToastContainer />
                               </div>
                             </div>
                           </div>
@@ -296,6 +295,7 @@ const Register = () => {
           </div>
         </div>
       </section>
+      <ToastContainer />
     </div>
   );
 };
