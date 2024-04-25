@@ -42,7 +42,7 @@ const Homepage = () => {
                 <img
                   className=" rounded pt-4 ps-3"
                   style={{ width: "100%", height: "90%" }}
-                  src="/img/colors.webp"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfipiLUf6Wi-H2YhHmEz3YpbTgUzu1R17ylC8rdNbl_w&s"
                   alt="Dress collection"
                 />
               </div>
