@@ -43,11 +43,7 @@ const Loginpage = ({ setIsLoggedIn }) => {
         );
         console.log("API response:", response);
         // Check if the response exists and if it contains a success property
-        if (
-          response &&
-          response.data &&
-          response.data.message === "login successful"
-        ) {
+        if (response) {
           // If login is successful, set isLoggedIn to true and redirect the user
           console.log(response);
           navigate("/");
