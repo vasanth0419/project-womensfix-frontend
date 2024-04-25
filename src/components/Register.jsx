@@ -85,7 +85,7 @@ const Register = () => {
                     <img
                       className="img-fluid rounded-start w-100 h-100 object-fit-cover"
                       loading="lazy"
-                      src="/img/signup.jpg"
+                      src="https://miro.medium.com/v2/resize:fit:828/format:webp/0*WUAUwx9gPsm7Lf_K"
                       alt="Welcome back you've been missed!"
                     />
                   </div>

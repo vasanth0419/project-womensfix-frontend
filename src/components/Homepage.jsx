@@ -10,7 +10,11 @@ const Homepage = () => {
       <div className="container-fluid">
         {/* 1st - content */}
 
-        <img class="index-main-img" src="./img/off-the-wall.jpg" alt="" />
+        <img
+          class="index-main-img"
+          src="https://singh-shivani.github.io/Merlin-Fashion/images/index-img/Off-the-Wall.jpg"
+          alt=""
+        />
 
         <br />
         {/* 2st - content */}
@@ -54,28 +58,37 @@ const Homepage = () => {
         {/* ///// */}
         <div class="index-grid-img-1">
           <p>
-            <img src="./img/anton-levin-P8prss71psk-unsplash.jpg" alt="" />
+            <img
+              src="https://singh-shivani.github.io/Merlin-Fashion/images/index-img/anton-levin-P8prss71psk-unsplash.jpg"
+              alt=""
+            />
             <h4 class="info-of-img-below">For the Young, Wild & Stylish</h4>
           </p>
           <p>
-            <img src="./img/calvin-lupiya--yPg8cusGD8-unsplash.jpg" alt="" />
+            <img
+              src="https://singh-shivani.github.io/Merlin-Fashion/images/index-img/bogdan-glisik-2WgOPYJuPsU-unsplash%20(1).jpg"
+              alt=""
+            />
             <h4 class="info-of-img-below">Just like your way to Conquer</h4>
           </p>
           <p>
-            <img src="./img/sun.jpg" alt="" />
+            <img
+              src="https://singh-shivani.github.io/Merlin-Fashion/images/index-img/calvin-lupiya--yPg8cusGD8-unsplash.jpg"
+              alt=""
+            />
             <h4 class="info-of-img-below">Stands out like the Sun</h4>
           </p>
         </div>
         {/* //////// */}
 
-        <h2 class="head-of-offer">STYLES TO STEAL</h2>
-        <p class="para-of-offer">Inspired by influencer</p>
+        <h2 class="head-of-offer ">STYLES TO STEAL</h2>
+        
 
         <div class="index-grid-img-3">
           <div>
             <a>
               <img
-                src="https://images.milledcdn.com/2019-01-13/AB7KaJdJ1YDOZY7c/pLhQGecshRtt.jpg"
+                src="https://singh-shivani.github.io/Merlin-Fashion/images/index-img/girl4.png"
                 alt=""
               />
             </a>
@@ -83,7 +96,7 @@ const Homepage = () => {
           <div>
             <a>
               <img
-                src="https://i.pinimg.com/736x/42/b4/d6/42b4d648d37887bb8b726a880fe0b749.jpg"
+                src="https://singh-shivani.github.io/Merlin-Fashion/images/index-img/girl3.png"
                 alt=""
                 srcset=""
               />
@@ -92,7 +105,7 @@ const Homepage = () => {
           <div>
             <a>
               <img
-                src="https://salesandshopping.co.uk/media/d/img/Coast16082017.png"
+                src="https://singh-shivani.github.io/Merlin-Fashion/images/index-img/girl2.png"
                 alt=""
               />
             </a>
@@ -100,7 +113,7 @@ const Homepage = () => {
           <div>
             <a>
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP5NhLjboVjE0jBCI4qPoMhlS4o9mQgdervpD8I5TVog&s"
+                src="https://singh-shivani.github.io/Merlin-Fashion/images/index-img/girl1.png"
                 alt=""
                 srcset=""
               />
