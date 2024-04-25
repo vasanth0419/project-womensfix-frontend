@@ -42,7 +42,7 @@ const Homepage = () => {
                 <img
                   className=" rounded pt-4 ps-3"
                   style={{ width: "100%", height: "90%" }}
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfipiLUf6Wi-H2YhHmEz3YpbTgUzu1R17ylC8rdNbl_w&s"
+                  src="https://www.color-meanings.com/wp-content/uploads/Colors-of-the-Week-1-1536x1032.png"
                   alt="Dress collection"
                 />
               </div>
@@ -74,22 +74,36 @@ const Homepage = () => {
         <div class="index-grid-img-3">
           <div>
             <a>
-              <img src="./img/girl1.png" alt="" />
+              <img
+                src="https://images.milledcdn.com/2019-01-13/AB7KaJdJ1YDOZY7c/pLhQGecshRtt.jpg"
+                alt=""
+              />
             </a>
           </div>
           <div>
             <a>
-              <img src="./img/girl2.png" alt="" srcset="" />
+              <img
+                src="https://i.pinimg.com/736x/42/b4/d6/42b4d648d37887bb8b726a880fe0b749.jpg"
+                alt=""
+                srcset=""
+              />
             </a>
           </div>
           <div>
             <a>
-              <img src="./img/girl3.png" alt="" />
+              <img
+                src="https://salesandshopping.co.uk/media/d/img/Coast16082017.png"
+                alt=""
+              />
             </a>
           </div>
           <div>
             <a>
-              <img src="./img/girl4.png" alt="" srcset="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP5NhLjboVjE0jBCI4qPoMhlS4o9mQgdervpD8I5TVog&s"
+                alt=""
+                srcset=""
+              />
             </a>
           </div>
         </div>
