@@ -63,12 +63,7 @@ const ForgetPassword = () => {
                 <div className="card-body p-3 p-md-4 p-xl-5">
                   <div className="text-center mb-3">
                     <Link to="/">
-                      <img
-                        src="/Logo.ico"
-                        alt="Logo"
-                        width="175"
-                        height="100"
-                      />
+                      <span className="dancing-script">Women's Fix</span>
                     </Link>
                   </div>
                   <h2 className="fs-6 fw-normal text-center text-secondary mb-4">

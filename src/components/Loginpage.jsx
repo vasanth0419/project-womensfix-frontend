@@ -102,12 +102,9 @@ const Loginpage = ({ setIsLoggedIn }) => {
                             {/* Logo */}
                             <div className="text-center mb-4">
                               <Link to="/">
-                                <img
-                                  src="/Logo.ico"
-                                  alt="BootstrapBrain Logo"
-                                  width="175"
-                                  height="70"
-                                />
+                                <span className="dancing-script">
+                                  Women's Fix
+                                </span>
                               </Link>
                             </div>
                             <h4 className="text-center">Sign In</h4>

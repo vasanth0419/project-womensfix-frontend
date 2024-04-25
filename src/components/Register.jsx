@@ -94,12 +94,7 @@ const Register = () => {
                       <div className="card-body p-3 p-md-4 p-xl-5">
                         <div className="text-center mb-4">
                           <a href="#!">
-                            <img
-                              src="/Logo.ico"
-                              alt="Logo"
-                              width="175"
-                              height="70"
-                            />
+                            <span className="dancing-script">Women's Fix</span>
                           </a>
                         </div>
                         <h2 className="h4 text-center">Sign Up</h2>
