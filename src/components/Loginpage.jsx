@@ -55,13 +55,12 @@ const Loginpage = ({ setIsLoggedIn }) => {
           toast.success("Login successful");
 
           resetForm();
-        } else  {
+        } else {
           console.log(response);
           // If the response contains a specific error message from the server
           toast.error(response.data.message);
-        } 
+        }
       } catch (error) {
-        
         // If there's an error with the API call, handle it here
         console.error("Error:", error);
         toast.error(
@@ -90,7 +89,7 @@ const Loginpage = ({ setIsLoggedIn }) => {
                     <img
                       className="img-fluid rounded-start w-100 h-100 object-fit-cover"
                       loading="lazy"
-                      src="/img/login.jpg"
+                      src="https://images.squarespace-cdn.com/content/v1/5eec673f4fa9ee0caef7d58a/1633643705350-E12NLVSQ71Z3YDD90AXA/unnamed+3.jpeg?format=1500w"
                       alt="Welcome back you've been missed!"
                     />
                   </div>
