@@ -29,15 +29,13 @@ const ForgetPassword = () => {
         const response = await userServices.forgetpassword(values.email);
 
         // Check if the response exists
-        if (response) {
+        if (response.data.message == "Password reset email sent") {
           // If password reset request is successful, display success message and redirect the user
           toast.success(response.data.message);
           navigate("/login");
         } else {
           // If there's an error, display error message
-          toast.error(
-            "Failed to request password reset. Please try again later."
-          );
+          toast.danger("user not found");
         }
       } catch (error) {
         // If there's an error with the API call, handle it here
