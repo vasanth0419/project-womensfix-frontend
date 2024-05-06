@@ -5,7 +5,6 @@ import Homepage from "./components/Homepage";
 import Loginpage from "./components/Loginpage";
 import Navbar from "./components/Navbar";
 import Forgetpassword from "./components/Forgetpassword";
-import Resetpassword from "./components/Resetpassword";
 
 import Register from "./components/Register";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -32,6 +31,7 @@ import Thursdaypage from "./components/sugesstionpage/Thursdaypage";
 import Fridaypage from "./components/sugesstionpage/Fridaypage";
 import Saturdaypage from "./components/sugesstionpage/Saturdaypage";
 import Sugesstionpage from "./components/sugesstionpage/Sugesstionpage";
+import Resetpassword from "./components/Resetpassword";
 
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
@@ -96,7 +96,7 @@ const App = () => {
           />
           <Route path="/register" element={<Register />} />
           <Route path="/forgetPassword" element={<Forgetpassword />} />
-          <Route path="/resetpassword/:token" element={<Resetpassword />} />
+          <Route path="/resetpassword" element={<Resetpassword />} />
           <Route path="/sugesstion" element={<Sugesstionpage />} />
 
           <Route path="/sunday" element={<Sundaypage />} />
