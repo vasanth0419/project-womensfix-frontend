@@ -45,23 +45,24 @@ const Loginpage = ({ setIsLoggedIn }) => {
         // Check if the response exists and if it contains a success property
         if (response) {
           // If login is successful, set isLoggedIn to true and redirect the user
-          console.log(response);
+           toast.success("Login successful");
           navigate("/");
           setIsLoggedIn(true);
-          toast.success("Login successful");
+          
 
           resetForm();
         } else {
-          console.log(response);
+           toast.error(response.data.message);
           // If the response contains a specific error message from the server
-          toast.error(response.data.message);
+         
         }
       } catch (error) {
         // If there's an error with the API call, handle it here
-        console.error("Error:", error);
         toast.error(
           "An error occurred while logging in. Please try again later."
         );
+        
+        
       }
     },
   });
