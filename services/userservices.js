@@ -31,7 +31,7 @@ const userServices = {
   // reset password
   resetpassword: async (token, newPassword) => {
     const data = { token, newPassword };
-    return instance.put("/user/resetpassword/:id/:token", data);
+    return instance.put("/user/resetpassword/:token", data);
   },
   // get the currently logged in user
   getUser: async () => {

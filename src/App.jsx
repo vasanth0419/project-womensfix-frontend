@@ -33,7 +33,6 @@ import Fridaypage from "./components/sugesstionpage/Fridaypage";
 import Saturdaypage from "./components/sugesstionpage/Saturdaypage";
 import Sugesstionpage from "./components/sugesstionpage/Sugesstionpage";
 
-
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -97,7 +96,7 @@ const App = () => {
           />
           <Route path="/register" element={<Register />} />
           <Route path="/forgetPassword" element={<Forgetpassword />} />
-          <Route path="/resetpassword/:id/:token" element={<Resetpassword />} />
+          <Route path="/resetpassword/:token" element={<Resetpassword />} />
           <Route path="/sugesstion" element={<Sugesstionpage />} />
 
           <Route path="/sunday" element={<Sundaypage />} />
