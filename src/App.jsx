@@ -23,8 +23,16 @@ import Skirts from "./components/dressespage/Skirts";
 import Jumpsuits from "./components/dressespage/Jumpsuits";
 import Rompers from "./components/dressespage/Rompers";
 
-
 import SuccessMessage from "./components/SuccessMessage";
+import Sundaypage from "./components/sugesstionpage/Sundaypage";
+import Mondaypage from "./components/sugesstionpage/Mondaypage";
+import Tuesdaypage from "./components/sugesstionpage/Tuesdaypage";
+import Wenesdaypage from "./components/sugesstionpage/Wenesdaypage";
+import Thursdaypage from "./components/sugesstionpage/Thursdaypage";
+import Fridaypage from "./components/sugesstionpage/Fridaypage";
+import Saturdaypage from "./components/sugesstionpage/Saturdaypage";
+import Sugesstionpage from "./components/sugesstionpage/Sugesstionpage";
+
 
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
@@ -90,6 +98,16 @@ const App = () => {
           <Route path="/register" element={<Register />} />
           <Route path="/forgetPassword" element={<Forgetpassword />} />
           <Route path="/resetpassword/:id/:token" element={<Resetpassword />} />
+          <Route path="/sugesstion" element={<Sugesstionpage />} />
+
+          <Route path="/sunday" element={<Sundaypage />} />
+          <Route path="/monday" element={<Mondaypage />} />
+          <Route path="/tuesday" element={<Tuesdaypage />} />
+          <Route path="/wenesday" element={<Wenesdaypage />} />
+          <Route path="/thursday" element={<Thursdaypage />} />
+          <Route path="/friday" element={<Fridaypage />} />
+          <Route path="/saturday" element={<Saturdaypage />} />
+
           <Route path="/trends" element={<Trends />} />
           <Route path="/dresses" element={<Dresses addToCart={addToCart} />} />
 
@@ -114,7 +132,6 @@ const App = () => {
               />
             }
           />
-         
 
           {/* error */}
           <Route path="*" element={<Error />} />

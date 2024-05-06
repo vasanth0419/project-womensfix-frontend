@@ -43,6 +43,59 @@ const Navbar = ({ isLoggedIn, handleLogout }) => {
                     Home
                   </Link>
                 </li>
+                <li className="nav-item dropdown">
+                  <Link
+                    to="/sugesstion"
+                    className="nav-link dropdown-toggle mx-2"
+                    id="navbarDropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Color Sugesstions
+                  </Link>
+
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <li>
+                      <Link className="dropdown-item" to="/sunday">
+                        Sunday
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/monday">
+                        Monday
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/tuesday">
+                        Tuesday
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/wenesday">
+                        Wenesday
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/thursday">
+                        Thursday
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/friday">
+                        Friday
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/saturday">
+                        Saturday
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
                 <li className="nav-item">
                   <Link className="nav-link mx-2" to="/trends">
                     Trends
