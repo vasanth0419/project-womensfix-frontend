@@ -99,7 +99,7 @@ const Loginpage = ({ setIsLoggedIn }) => {
                             {/* Logo */}
                             <div className="text-center mb-4">
                               <Link to="/">
-                                <span className="dancing-script">
+                                <span className="dancing-script text-dark">
                                   Women's Fix
                                 </span>
                               </Link>
