@@ -15,7 +15,7 @@ const Loginpage = ({ setIsLoggedIn }) => {
   const initialValues = {
     email: "",
     password: "",
-    remember_me: false,
+    
   };
 
   // Validation schema using Yup

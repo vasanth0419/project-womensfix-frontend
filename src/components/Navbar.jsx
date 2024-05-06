@@ -180,7 +180,10 @@ const Navbar = ({ isLoggedIn, handleLogout }) => {
               {isLoggedIn ? (
                 <div className="profile" onClick={toggleMenu}>
                   <div className="img-box">
-                    <img src="img/usericon.png" alt="some user image" />
+                    <img
+                      src="https://w7.pngwing.com/pngs/178/595/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png"
+                      alt="some user image"
+                    />
                   </div>
                   {/* Dropdown menu for profile */}
                   {menuActive && (
